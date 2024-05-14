@@ -96,7 +96,7 @@ footer {
     padding: 20px;
 }
 
-@media screen and (max-width:412) {
+@media screen and (max-width:412px) {
     section {
         font-size: 1.2em;
     }
