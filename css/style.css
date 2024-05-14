@@ -53,8 +53,8 @@ header a:hover {
 section {
     font-family: var(--font2);
     font-size: 1.7em;
-    padding-top: 20vh;
-    padding-bottom: 20vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
 }
@@ -82,14 +82,22 @@ section p {
 .image p {
     background-color: rgba(0, 0, 0, 0.445);
     padding: 20px;
+    margin-right: 20px;
     color: white;
     display: inline-block;
 }
 
+/* Footer */
 
 footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
+}
+
+@media screen and (max-width:412) {
+    section {
+        font-size: 1.4em;
+    }
 }
